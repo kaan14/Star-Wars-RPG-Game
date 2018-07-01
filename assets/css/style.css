@@ -1,0 +1,61 @@
+.title-container {
+	background-color: steelblue; 
+	color: white;
+	height: 80px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.title-container h1 {
+	line-height: 80px;
+	font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.characters {
+	margin-bottom: 40px;
+}
+
+.restyle {
+	border: 2px solid green;
+	width: 140px;
+	float: left;
+    text-align: center;
+    color: antiquewhite;
+	margin: 10px;
+	background-color: gray;
+	border-radius: 0px;
+}
+
+#albert-hp, #tesla-hp, #marie-hp, #edison-hp {
+	padding-bottom: 10px;
+}
+
+p {
+    padding-top: 10px;
+    
+}
+
+img {
+	width: 100px;
+	height: 70px;
+	display: inline-block;
+	margin: 0 20px 20px 20px;
+}
+
+.fight-section {
+	clear: both;
+}
+
+.printActions {
+	clear: both;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+body{
+    background-image: url(../images/space.jpeg);
+    background-repeat: repeat; 
+    
+}
+h3{
+    color: azure; 
+}
