@@ -118,7 +118,7 @@ $(".attack-button").on("click", function () {
     }
     else if (fighterTwo.health <= 0) {
         $(".defender .restyle").css("display", "none");
-        fighterOne.health += 1.4 ;  
+        fighterOne.health *= 1.4 ;  
         fighterTwo = null;
         console.log("you lost");
         audio.play(); 
